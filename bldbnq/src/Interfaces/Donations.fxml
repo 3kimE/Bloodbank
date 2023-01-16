@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlleurs.DonationsController">
+   <children>
+      <AnchorPane layoutX="21.0" layoutY="53.0" prefHeight="423.0" prefWidth="730.0" stylesheets="@../application/application.css" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="149.0">
+         <children>
+            <PieChart fx:id="pieChart" layoutX="363.0" layoutY="2.0" prefHeight="331.0" prefWidth="302.0" style="-fx-background-color: #EEEEEE;" />
+            <BarChart fx:id="barChart" layoutX="13.0" layoutY="12.0" prefHeight="339.0" prefWidth="362.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children></AnchorPane>
+      <Label layoutX="102.0" prefHeight="68.0" prefWidth="262.0" text="BLOOD DONATION" textAlignment="CENTER" textFill="#6f6f6f">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

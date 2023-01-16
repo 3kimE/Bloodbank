@@ -1,0 +1,66 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.parent{
+	-fx-background-color: transparent;
+}
+.pane{
+	-fx-background-color: #33658F;
+}
+
+.trans-btn-white-border{
+	-fx-background-color: transparent;
+	-fx-background-radius: 5px;
+	-fx-border-color: #cccccc;
+	-fx-border-radius: 5px;
+	-fx-border-width: 1px;
+	-fx-text-fill: whitesmoke;
+}
+
+.white-pane{
+	
+	
+	
+	-fx-background-color: #FFFFFF; 
+}
+
+.tf_box{
+	-fx-background-color: transparent;
+	-fx-border-color: #DEDEE4;
+	-fx-border-width: 0px 0px 1px 0px;
+	}
+
+.tf{
+	-fx-background-color: transparent;
+	-fx-prompt-text-fill: #2C2C2C;
+}
+
+.pink-btn{
+	-fx-background-color: #C5304D;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #FFFFFF;
+	
+}
+
+.white-btn{
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 5px;
+	-fx-text-fill: #221111;
+	
+}
+
+.black-btn{
+	-fx-background-color:  #373737;
+	-fx-text-fill: #ffffff;}
+	
+	.black-btn:hover{
+	-fx-background-color:  gray;}
+	
+	
+.btnlog:hover{
+	-fx-background-color:gray;
+		
+		-fx-text-fill: #ffffff;
+	}
+	.btn:hover{
+		-fx-background-color:gray;
+	
+	}
